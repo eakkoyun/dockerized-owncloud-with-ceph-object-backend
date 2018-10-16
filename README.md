@@ -1,4 +1,4 @@
-# Multi-container for an application - docker-compose.yaml
+# Multi-container for Document Server Application
 
 Owncloud is an open-source platform and it has plenty amount of documents available showing how to install it using docker images. It has several basic components such as owncloud application, nginx reverse proxy, redis cache, and mariadb database server where a single file (docker-compose.yaml) is required to configure and install all containers. However, this is not enough to allow users editing their documents online so that a new container, onlyoffice, is required to be installed and configured properly running with owncloud together. Additionally, securing http traffic with SSL is a neccessity so that client can interact with owncloud and onlyoffice server in a secure way. Finally, it might be required to store the files at the our own CEPH backend storage as objects rather than on local disks. Therefore, an authorization and a communication mechanisms are required. In this document, the information about installation and deployment for a full-stack document server having all the mentioned functionalities are covered with the configuration files.
 
