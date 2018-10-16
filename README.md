@@ -1,0 +1,2 @@
+# dockerized-owncloud-with-ceph-object-backend
+This is a project for deploying a kind of document server where users can upload/download and edit their documents online. All the components required for the project are containers. The network and volumes of the containers were configured in their own space in order to migrate the application from one physichal host to the another one in a easy and flexible way.
