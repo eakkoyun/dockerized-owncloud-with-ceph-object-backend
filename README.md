@@ -5,7 +5,16 @@ Owncloud is an open-source platform and it has plenty amount of documents availa
 ![alt text](screenshots/owncloud-1.png?raw=true "Owncloud Server")
 
 
-There are 5 containers configured in docker-compose.yaml running on their internal network and having own volumes. The list of containers are given as following.
+There are 5 containers configured in docker-compose.yaml running on their internal network and having own volumes. The list of containers are given as following. Do not forget to export environment file as following.
+
+```
+OWNCLOUD_VERSION=9.1.8
+OWNCLOUD_DOMAIN=172.16.46.2
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=hebeleme
+HTTP_PORT=80
+HTTPS_PORT=443
+```
 
 ![alt text](screenshots/console.png?raw=true "List of docker containers")
 
