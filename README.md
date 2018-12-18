@@ -11,7 +11,7 @@ There are 5 containers configured in docker-compose.yaml running on their intern
 OWNCLOUD_VERSION=9.1.8
 OWNCLOUD_DOMAIN=172.16.46.2
 ADMIN_USERNAME=admin
-ADMIN_PASSWORD=hebeleme
+ADMIN_PASSWORD=guessme
 HTTP_PORT=80
 HTTPS_PORT=443
 ```
